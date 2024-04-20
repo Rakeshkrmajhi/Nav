@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Navbar</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+img{
+}
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    background-color:#fff;
+    padding: 10px 0;
+}
+
+
+.navbar__link:hover {
+    background-color: #555;
+}
+/* .button{
+            padding: 5px 12px;
+            
+            border-radius: 15%;
+        }
+        .button:nth-child(1) {
+    background-color: red; /* Change to the desired background color */
+
+.button:nth-child(2) {
+    background-color: red; /* Change to the desired background color */
+} */
+.button:nth-child(1) {
+    background-color: red; /* Change to the desired background color for the 1st button */
+}
+
+.button:nth-child(2) {
+    background-color: green; /* Change to the desired background color for the 2nd button */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png">
+       <span>NEW</span>
+       <span>IITG - CS</span>
+       <span>EVENTS</span>
+       <span>FEES</span>
+       <span>LEARN</span>
+       <span>SUCCESS STORIES</span>
+       <span>HIRE FROM US</span>
+       <button class="button">Refer & Earn</button>
+       <button class="button">Sign Up</button>
+    </nav>
+</body>
+</html>
